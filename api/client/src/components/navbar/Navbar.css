@@ -1,0 +1,117 @@
+.navbar-container{
+    padding:var(--padding) ;
+    position: sticky;
+    top: 0;
+    /* background-color: rgb(236, 234, 234); */
+    color:black;
+    text-decoration: none;
+    box-shadow: 0px 0px 5px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.logo{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    color:rgb(85, 85, 163);
+}
+.logo span{
+    color: black;
+    
+}
+
+
+.navbar-wrapper{
+display: flex;
+justify-content: space-between;
+padding: 20px 20px;
+}
+
+.navbar-wrapper form{
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar-menus{
+    flex: 0.7;
+    gap: 10px;
+}
+
+.navbar-wrapper .navbar-menus .menu{
+    text-decoration:none;
+    color: black;
+    cursor: pointer;
+}
+
+.login{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login img{
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.navbar-wrapper .navbar-menus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+
+
+@media (max-width: 780px){
+
+    .navbar-wrapper .navbar-menus{
+        display: none;
+    }
+
+    .login img{
+        margin-right: 20px;
+    }
+
+    .menu-toggle{
+        display: block;
+        right: 0;
+        font-size: 25px;
+        z-index:4 ;
+        position: fixed;
+        margin-right: 5%;
+    }
+
+
+    .mobile-menu-wrapper{
+        background-color: rgb(236, 234, 234);
+        position: fixed;
+        display: flex;
+        z-index:4 ;
+        flex-direction: column;
+        gap: 30px;
+        list-style: none;
+        right: 0;
+        transition: all 2s, ease;
+        justify-content: center;
+        align-items: center;
+       margin-top: -10px;
+       padding: 20px;
+       
+        }
+
+        .mobile-menu-wrapper .menu{
+            padding-top: 10px;
+            text-decoration: none;
+            color: black;
+               
+            }
+}

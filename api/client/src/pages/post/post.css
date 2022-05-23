@@ -1,0 +1,130 @@
+.sidebar-and-post-container-post{
+    padding: var(--padding);
+    margin-top: 39px;
+}
+
+.sidebar-and-post-wrapper-post{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.post{
+    flex: 9;
+    padding: 0px 10% 0px 0px;
+}
+
+.post .img-wrapper{
+    background-color: black;
+    height: 500px;
+    min-height: 10px;
+    max-width: 1000px;
+    min-width: 10px;
+
+}
+
+.post .img-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 10%;
+    min-width: 10px;
+}
+
+.authorAndTime-wrapper{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color:rgb(90, 88, 88);
+}
+
+
+
+.edits{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    gap: 20px;
+    font-size: 20px;
+}
+
+
+
+.editicon:first-child{
+    color: teal;
+    cursor: pointer;
+}
+
+.editicon:last-child{
+    color: tomato;
+    cursor: pointer;
+}
+
+.post-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:rgb(85, 85, 163);
+
+}
+
+.post-title-update-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.post-title-update{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:rgb(85, 85, 163);justify-self: center;
+}
+
+.post-desc{
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.post-desc-update-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.post button{
+    margin-top: 10px;
+    width: 150px;
+    background-color: teal;
+    border: none;
+    outline: none;
+    padding: 10px;
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.relatedPosts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 700px){
+    .post{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    }
+
+    .post .img-wrapper{
+        height: 100%;
+    }
+   
+}

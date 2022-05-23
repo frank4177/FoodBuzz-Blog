@@ -1,0 +1,106 @@
+.footer-container{
+    background-color: rgb(236, 234, 234);
+    padding: var(--padding);
+    margin-top: 3rem;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.footer-container .vof p{
+    max-width: 20rem;
+    min-width:2rem;
+}
+
+
+
+.footer-container .vof .icons-container{
+    display: flex;
+}
+
+.footer-container .vof .icons-container .icons{
+   font-size: 25px;
+   margin: 0px 10PX 10PX 0px;
+}
+
+
+
+
+.footer-container ul{
+    font-size: 13px;
+    list-style: none;
+    
+}
+
+
+
+
+.my-acct-menus span:hover{
+    margin-left: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.my-info-menus span:hover{
+    margin-left: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+.footer-container p{
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+.footer-container .desc{
+    margin-bottom: 20px;
+    font-weight:bold;
+    font-size: 1px;
+}
+
+.footer-container li{
+    margin-bottom: 12px;
+   font-size: 16px;
+   list-style: none;
+}
+
+.footer-container .payment-icons{
+width: 20rem;
+}
+
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+
+
+
+/******************* MEDIA QUERIES *********************/
+
+@media (max-width: 860px) {
+    .my-acct{
+        display: none;
+    }
+
+}
+
+@media (max-width:480px) {
+    
+}
+
+@media (min-width:480px) and (max-width: 568px)  {
+    .footer-container .vof{
+        display: none;
+    }
+}

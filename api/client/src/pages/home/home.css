@@ -1,0 +1,26 @@
+.home-wrapper{
+   min-height: 90vh;
+}
+
+.sidebar-and-post-container{
+    padding: var(--padding);
+    margin-top: 39px;
+}
+
+.sidebar-and-post-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px){
+
+    .sidebar-and-post-container{
+        padding: unset;
+    }
+
+    .sidebar-and-post-wrapper{
+        flex-direction: column;
+    }
+}
+

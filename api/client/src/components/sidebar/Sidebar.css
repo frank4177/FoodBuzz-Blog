@@ -1,0 +1,41 @@
+.sidebar-container{
+    flex: 3;
+    height: 100%;
+    position: sticky;
+    top: 100px;
+}
+.sidebar-container h3{
+    text-align: center;
+}
+
+.sidebar-categories{
+    background-color: rgb(236, 234, 234);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar-categories ul .category-items{
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.category-items .link {
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (max-width:600px){
+    .sidebar-container{
+        flex: 2;
+        position:unset;
+        top:unset;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .sidebar-categories ul{
+        margin: 0 auto;
+    }
+}

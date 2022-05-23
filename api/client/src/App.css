@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+:root{
+    --padding:  10px 5% 0px 5%;
+  }
+
+  body{
+    font-family:Poppins ;
+    max-width:1370px;
+    margin: 0 auto;
+    height: 100vh; 
+  }

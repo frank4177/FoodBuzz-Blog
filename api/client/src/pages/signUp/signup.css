@@ -1,0 +1,72 @@
+.signup-container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: rgb(243, 234, 234);
+}
+
+.signup-wrapper{
+width: 40%;
+padding: 20px;
+background-color: white;
+}
+
+.signup-wrapper h1{
+font-size: 24px;
+font-weight: 300;
+color:rgb(85, 85, 163);
+font-weight: 400;
+}
+
+.signup-wrapper form{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.signup-wrapper h2{
+    padding: 10px;
+    background-color:rgba(4, 172, 4, 0.938);
+    color:white;
+    transition:ease;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.signup-wrapper form input{
+flex: 1;
+min-width:40%;
+margin: 20px 10px 0px 0px;
+padding: 10px;
+}
+
+.signup-wrapper form .agreement{
+font-size: 12px;
+margin: 20px 0px ;
+}
+
+.signup-wrapper form button{
+padding: 20px;
+width: 200px;
+border: none;
+background-color: teal;
+color: white;
+cursor: pointer;
+font-size: 20px;
+}
+
+
+/******************* MEDIA QUERIES ***************************/
+
+@media (max-width:480px) {
+    .signup-wrapper{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 840px){
+    .signup-wrapper{
+        width: 70%;
+    }
+}
