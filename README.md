@@ -7,6 +7,7 @@ FoodBuzz is a MERN stack food blog
 - Login/Signup
 - Search functionality
 - CRUD posts and categories
+- CRUD user profile
 - Post page with related products
 - Newsletter subscription
 - Load more posts functionality
