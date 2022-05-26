@@ -17,3 +17,4 @@ FoodBuzz is a MERN stack food blog
 - Nodejs
 - Express Js
 - Mongo DB
+- Axios
