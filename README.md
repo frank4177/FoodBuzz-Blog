@@ -18,3 +18,6 @@ FoodBuzz is a MERN stack food blog
 - Express Js
 - Mongo DB
 - Axios
+
+# Live Demo
+[FoodBuzz](https://foodbuzz.herokuapp.com/)
